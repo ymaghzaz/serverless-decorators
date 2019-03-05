@@ -1,0 +1,23 @@
+{
+  "comments": false,
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": "8.10"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "decoratorsBeforeExport": false
+      }
+    ],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    "source-map-support"
+  ]
+}

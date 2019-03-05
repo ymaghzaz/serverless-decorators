@@ -1,0 +1,27 @@
+{
+  "name": "serverless-webpack-babel-example",
+  "version": "1.0.0",
+  "description": "Serverless webpack 4 example",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Schmid <fschmid740@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "bluebird": "^3.5.1",
+    "source-map-support": "^0.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-source-map-support": "^2.0.1",
+    "babel-preset-env": "^1.7.0",
+    "serverless": "^1.38.0",
+    "serverless-offline": "^4.7.1",
+    "serverless-webpack": "^5.2.0",
+    "webpack": "^4.29.6",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
